@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="InstagramSuite" verbose="1" >
+    <test name="InstagramTest" >
+        <parameter name="username"  value="namethatdefinitelyfree" />
+        <parameter name="password"  value="q1w2e3r4t5y6" />
+        <parameter name="email" value="namethatdefinitelyfree@gmail.com"/>
+        <classes>
+            <class name="ru.customertimes.at.ui.LoginTest"/>
+            <class name="ru.customertimes.at.ui.RegistrationTest"/>
+        </classes>
+    </test>
+</suite>
